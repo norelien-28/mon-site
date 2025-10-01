@@ -1,0 +1,20 @@
+<h1>Introduction au DOM (Document Object Model)</h1>
+<p>Le DOM est une interface de programmation pour les documents HTML et XML.</p>
+<p>Il représente la page web comme une structure d’objets que JavaScript peut manipuler.</p>
+<p>Quelques actions courantes :</p>
+<ul>
+	<li>Sélectionner un élément : <code>document.getElementById("monId")</code></li>
+	<li>Modifier le contenu : <code>element.innerHTML = "Nouveau contenu";</code></li>
+	<li>Ajouter un écouteur d'événement : <code>element.addEventListener("click", fonction);</code></li>
+</ul>
+<p>Exemple :</p>
+<pre><code>
+const bouton = document.getElementById("monBouton");
+bouton.addEventListener("click", () => {
+  alert("Bouton cliqué !");
+});
+</code></pre>
+<p>
+	Pour en savoir plus, visite
+	<a href="https://developer.mozilla.org/fr/docs/Web/API/Document_Object_Model" target="_blank" rel="noopener noreferrer">la documentation MDN DOM</a>.
+</p>
